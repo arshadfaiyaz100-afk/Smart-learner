@@ -1,0 +1,6 @@
+{
+  "name": "Learning Lab",
+  "description": "Ultra-advanced open-source adaptive learning platform: English, Computer Fundamentals, Logic, Python, Software and AI Engineering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

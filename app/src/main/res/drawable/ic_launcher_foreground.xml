@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing Hexagonal Lab Shield Base -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M54,22 L78,36 L78,64 L54,78 L30,64 L30,36 Z" />
+
+    <!-- Inner Emerald Gradient Plate -->
+    <path
+        android:pathData="M54,25 L75,37.5 L75,62.5 L54,75 L33,62.5 L33,37.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="33"
+                android:startY="25"
+                android:endX="75"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00E5FF" />
+                <item android:offset="0.5" android:color="#10B981" />
+                <item android:offset="1.0" android:color="#059669" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized Code Bracket Left '<' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,43 L39,50 L46,57 L48.5,54.5 L44,50 L48.5,45.5 Z" />
+
+    <!-- Stylized Code Bracket Right '>' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,43 L59.5,45.5 L64,50 L59.5,54.5 L62,57 L69,50 Z" />
+
+    <!-- Code Slash '/' or Lab Spark -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M55.5,41 L51.5,59 L54,59 L58,41 Z" />
+
+    <!-- Star of Knowledge top-right badge -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M72,26 L73.5,30.5 L78,32 L73.5,33.5 L72,38 L70.5,33.5 L66,32 L70.5,30.5 Z" />
+
+    <!-- Open Book Pages foundation at bottom -->
+    <path
+        android:fillColor="#E0F2FE"
+        android:pathData="M40,68 C45,67 50,68.5 54,71 C58,68.5 63,67 68,68 L68,72 C63,71 58,72.5 54,75 C50,72.5 45,71 40,72 Z" />
+</vector>
